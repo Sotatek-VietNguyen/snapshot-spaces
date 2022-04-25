@@ -1,0 +1,17 @@
+{
+  "key": "dao.dvision.sotatek.works", // This will be the url of your space
+  "name": "dvision.eth", // Name of the space (max 12 chars)
+  "chainId": 4, // ID of the blockchain network
+  "decimals": 18, // Number of decimals in the token
+  "symbol": "VTT", // Symbol of the base token
+  "defaultView": "core", // The default tab to see in your space
+  "address": "0xDaABBa439c5b0Ad6C59e18B92266e17161355A04", // The address of the base token
+  "token": "0xDaABBa439c5b0Ad6C59e18B92266e17161355A04", // The same address of the base token
+  "core": [ // List of official addresses that can post in "Core" tab of your space
+    "0x68CC14e6EAf70945CC790f90d43a4508E57f3f87"
+  ],
+  "min": 10, // Minimum balance to have from the base token to have your proposal visible in the space (unless the address is a core address)
+  "invalid": [
+    "0x68CC14e6EAf70945CC790f90d43a4508E57f3f87"
+  ] // List of proposal ids, use this to remove a proposal from your space
+}
