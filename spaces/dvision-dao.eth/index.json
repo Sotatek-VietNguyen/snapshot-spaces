@@ -1,6 +1,6 @@
 {
   "key": "dao.dvision.sotatek.works", // This will be the url of your space
-  "name": "dvision.eth", // Name of the space (max 12 chars)
+  "name": "dvision-dao.eth", // Name of the space (max 12 chars)
   "chainId": 4, // ID of the blockchain network
   "decimals": 18, // Number of decimals in the token
   "symbol": "VTT", // Symbol of the base token
